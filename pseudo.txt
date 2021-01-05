@@ -1,0 +1,10 @@
+
+1) Define title of page
+2) Define heading in the middle of page
+3) Use input method to get user input in between Fahrenheit and calculate button
+4) Need Fahrenheit to Celsius converter formula i.e. F=(9/5)*C + 32
+5) Need a Calculate button for calculations right next to value label
+6) Need to show Celsius value once user clicks at calculate button
+7) Create a border for whole container
+
+
