@@ -17,19 +17,20 @@
 
         <div class="fhr">
             <label>Fahrenheit</label>
-            <input id="userInput" type="number" onchange="temperatureConverter(this.value)">
-            <button id="btn">Calculate</button>
+            <input id="degrees" type="number" name="degrees">
+         <button class="btn" id="btn" onclick="tempConvert()">Calculate</button>
+           
         </div>
 
         <br><br>
-
-        <label class="align"><strong>Celsius</strong></label><br>
-        <label id="outputCelsius" class="align"></label>
-
+        <label id="Celsius" class="align"><strong>Celsius </strong>  </label>
+        <span id="getCelsius"> </span>
     </div>
-
+    <br>
+    <label id="outputCelsius" ></label>
 <script src="temp.js"></script>
 
-</body>
+</body> 
+
 </html>
 
