@@ -25,8 +25,13 @@ function temperatureConverter(valNum) {
 
 
 function tempConvert() {
-  let celsiusCalc = parseFloat(document.getElementById("degrees").value); 
-  document.getElementById("getCelsius").innerHTML = Math.round(
-    celsiusCalc * (5/ 9) - 18 
-  );
+ // let celsiusCalc = parseFloat(document.getElementById("degrees").value); 
+  //document.getElementById("getCelsius").innerHTML = Math.round(
+    //celsiusCalc * (5/ 9) - 18 
+  //);
+//}
+
+const degreeCont=document.getElementById("degrees").value;
+const calc=(degreeCont-32)*5/9;
+document.getElementById("getCelsius").innerHTML=calc;
 }
