@@ -35,3 +35,9 @@ const degreeCont=document.getElementById("degrees").value;
 const calc=(degreeCont-32)*5/9;
 document.getElementById("getCelsius").innerHTML=calc;
 }
+
+function tempC(){
+const degCov=document.getElementById("deg").value;
+const cal=(degCov*1.8) + 32;
+document.getElementById("getFhr").innerHTML=cal;
+}
