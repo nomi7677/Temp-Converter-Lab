@@ -18,13 +18,25 @@
         <div class="fhr">
             <label>Fahrenheit</label>
             <input id="degrees" type="number" name="degrees">
-         <button class="btn" id="btn" onclick="tempConvert()">Calculate</button>
+         <button class="btn" id="btn" onClick="tempConvert()">Calculate</button>
            
         </div>
-
+        <br>
+        <div class="cls">
+            
+            <label> Celsius</label>
+            <input id="deg" type="number" name="deg">
+           
+            <button class="btnn" id="btnn" onClick="tempC()">Calculate</button>
+        </div>
         <br><br>
-        <label id="Celsius" class="align"><strong>Celsius </strong>  </label>
-        <span id="getCelsius"> </span>
+        <!--<label id="Celsius" class="align"><strong>Celsius </strong></label>
+        <label id="fahr" class="fhrr"><strong>Fahrenheit</strong></label>
+        
+        -->
+        <p id="Celsius" class="align" id="fhr"><strong>Fahrenheit &nbsp;&nbsp; &nbsp;&nbsp; Celsius </strong></p>
+        <span id="getCelsius"></span>
+        <span id="getFhr"></span>
     </div>
     <br>
     <label id="outputCelsius" ></label>
